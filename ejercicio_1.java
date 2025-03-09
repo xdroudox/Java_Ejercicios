@@ -7,7 +7,7 @@ public class ejercicio_1 {
         int edad1 = scan.nextInt();
         int edad2 = scan.nextInt();
         int edad3 = scan.nextInt();
-        double promedio = (edad1 + edad2 + edad3) / 3;
+        int promedio = (edad1 + edad2 + edad3) / 3;
         System.out.println("El promedio de las edades es: "+promedio);
     }
 
