@@ -16,5 +16,7 @@ public class ejercicio_3 {
         Double comisiones = (venta1 + venta2 + venta3) * 0.10;
         Double s_total= s_base + comisiones;
         System.out.println("Las ganancias por comisiones es de " + comisiones + " y el total que recibira es de " + s_total);
+        scan.close();
+
     }
 }

@@ -20,6 +20,7 @@ public class ejercicio_8 {
              
         }else{
             System.out.println("ERROR: La suma de los lados no crean un triangulo");
-             };
+        };
+        scan.close();
     }
 }

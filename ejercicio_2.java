@@ -9,6 +9,6 @@ public class ejercicio_2 {
         Double interes = capital * 0.02;
         Double total = capital + interes;
         System.out.println("Ganancias de interes del 2% mensual es de " +interes +"COP y su capital total es " +total +"COP");
-
+        Scan.close();
     }
 }

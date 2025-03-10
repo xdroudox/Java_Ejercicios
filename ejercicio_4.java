@@ -9,6 +9,7 @@ public class ejercicio_4 {
         double descuento = monto * 0.15;
         double monto_final = monto - descuento;
         System.out.println("El total a pagar es de "+ monto_final);
+        scan.close();
         
     }
 }

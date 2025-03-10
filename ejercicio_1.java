@@ -9,6 +9,7 @@ public class ejercicio_1 {
         int edad3 = scan.nextInt();
         int promedio = (edad1 + edad2 + edad3) / 3;
         System.out.println("El promedio de las edades es: "+promedio);
+        scan.close();
     }
 
 }

@@ -23,5 +23,6 @@ public class ejercicio_5 {
         } else {
             System.out.println("Reprobo");
         }
+        scan.close();
     }        
 } 
