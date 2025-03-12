@@ -3,10 +3,10 @@ public class ejercicio_15 {
     public static void main(String[] args) {
         // Calcular y mostrar el monto total a pagar en un mes de luz eléctrica, teniendo como dato la lectura
         // anterior, la lectura actual y el costo por kilovatio.
-        // Estrato 1: $349,8 por kWh para consumos hasta el límite de subsistencia.
-        // Estrato 2: $867,8 por kWh para consumos hasta el límite de subsistencia.
-        // Estrato 3: $737,6 por kWh para consumos hasta el límite de subsistencia.
-        // Estratos 4, 5 y 6: $1.041 por kWh para todo consumo.
+        // Estrato 1: $349,8 por kWh
+        // Estrato 2: $867,8 por kWh
+        // Estrato 3: $737,6 por kWh 
+        // Estratos 4, 5 y 6: $1.041 por kWh
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese la lectura anterior Kwh/mes: ");
         int lectura_anterior = scan.nextInt();
@@ -31,7 +31,7 @@ public class ejercicio_15 {
         }
         int consumo = lectura_actual - lectura_anterior; 
         double pago_actual = consumo * precio ;
-        System.out.println("Consumo del mes: " + consumo + " kWh");
+        System.out.println("Consumo del mes: " + consumo + " Kwh");
         System.out.println("Pago de electricidad este mes: " + pago_actual);
         scan.close();
     }
