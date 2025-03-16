@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_12 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // Calcule y muestre, a un alumno, cuál será su promedio general en las tres materias más difíciles que
         // cursa y cuál será el promedio que obtendrá en cada una de ellas. Estas materias se evalúan como se
         // muestra a continuación:
@@ -43,6 +44,6 @@ public class ejercicio_12 {
          }
         double nota_quimica= (q_examen*0.85)+((s_tareaq/2)*0.15);
         System.out.println("La nota de la materia de quimica es : "+ nota_quimica);
-        scan.close();
+        
     }
 }

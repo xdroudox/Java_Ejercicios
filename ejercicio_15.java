@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_15 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // Calcular y mostrar el monto total a pagar en un mes de luz eléctrica, teniendo como dato la lectura
         // anterior, la lectura actual y el costo por kilovatio.
         // Estrato 1: $349,8 por kWh
@@ -33,6 +34,6 @@ public class ejercicio_15 {
         double pago_actual = consumo * precio ;
         System.out.println("Consumo del mes: " + consumo + " Kwh");
         System.out.println("Pago de electricidad este mes: " + pago_actual);
-        scan.close();
+        
     }
 }

@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_20 {
-    public static void main(String[] args) { 
+    public static void ejecutar(String[] args) { 
         // Calcule qué tanto por ciento anual cobraron por un préstamo de Bolívares X, si se pagaron Bolívares
         // Y de intereses en 4 años. La fórmula del interés es:
         Scanner scan = new Scanner(System.in);

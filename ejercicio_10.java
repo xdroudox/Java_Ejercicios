@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_10 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         Scanner Scan = new Scanner(System.in);
     
     // El cambio de divisas en la bolsa de Madrid el 25/08/1987 fue el siguiente
@@ -35,6 +36,6 @@ public class ejercicio_10 {
         double dolares = peseta/unidad_dolares; 
         double libras_italianas = peseta/unidad_italianas; 
         System.out.println("El valor de pesetas en dolares es; " + String.format("%.4f",dolares )+ " y en libras italianas es: "+ String.format("%.4f",libras_italianas ) );
-        Scan.close();
+        
     }
 }

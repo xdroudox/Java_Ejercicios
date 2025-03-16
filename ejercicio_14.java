@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_14 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // El siguiente sistema de ecuaciones lineales:
         // aX + bY = c
         // dX + eY = f
@@ -25,6 +26,6 @@ public class ejercicio_14 {
         double y = (a * f - c * d) / (a * e - b * d);
         System.out.println("El valor de X es: " + x);
         System.out.println("El valor de Y es: " + y);
-        scan.close();
+       
     }
 }

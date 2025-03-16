@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_7 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         Scanner scan = new Scanner(System.in);
         // Dada una cantidad en metros, se requiere que la convierta a pies y pulgadas, considerando lo
         // siguiente: 1 metro = 39.27 pulgadas; 1 pie = 12 pulgadas.
@@ -10,6 +11,6 @@ public class ejercicio_7 {
         Double pies = pulgadas / 12;
         System.out.println("Los metros en pulgadas equivalen a " + String.format("%.2f",pulgadas)  + " pulgadas");
         System.out.println("Los metros en pies equivalen a " + String.format("%.2f",pies) + " pies");
-        scan.close();
+      
     }
 }

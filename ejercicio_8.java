@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_8 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // Calcule el área de un triángulo en función de las longitudes de sus lados, utilizando la fórmula:
         // √p(p­a)(p­b)(p­c) donde p = (a+b+c) / 2
         
@@ -21,6 +22,6 @@ public class ejercicio_8 {
         }else{
             System.out.println("ERROR: La suma de los lados no crean un triangulo");
         };
-        scan.close();
+        
     }
 }

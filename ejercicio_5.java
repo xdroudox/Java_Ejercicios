@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_5 {
-    public static void main (String[] args) {
+    public static void ejecutar (String[] args) {
         Scanner scan = new Scanner(System.in);
         // Un alumno desea saber cuál será su calificación final en la materia de computación. Dicha calificación
         // se compone de los siguientes porcentajes: 55% del promedio de sus tres calificaciones parciales,
@@ -23,6 +24,6 @@ public class ejercicio_5 {
         } else {
             System.out.println("Reprobo");
         }
-        scan.close();
+        
     }        
 } 

@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_19 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // En un hospital rural existen tres áreas: Ginecología, Pediatría y Traumatología. El presupuesto anual
         // del hospital se reparte conforme a la siguiente tabla:
         // Área Porcentaje del presupuesto
@@ -18,6 +19,6 @@ public class ejercicio_19 {
         System.out.println("Ginecología: " + Ginecología);
         System.out.println("Traumatología: " + Traumatología);
         System.out.println("Pediatria: " + Pediatria);
-        scan.close();
+      
     }
 }

@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_11 {
-    public static void main(String[]args){
+    public static void ejecutar(String[]args){
         Scanner scan =new Scanner(System.in);
     //Se conoce de un trabajador su nombre, el número de horas normales trabajadas, el pago de una hora
     // normal y el número de horas extras trabajadas. Además, que, cada hora extra se paga 25% más del
@@ -34,7 +35,7 @@ public class ejercicio_11 {
     System.out.println("El valor de sus asignaciones es "+ asignaciones +" Bolivares");
     System.out.println("El valor de sus deducciones es "+ String.format("%.3f",deducciones) +" Bolivares");
     System.out.println("El valor de su sueldo neto es "+ sueldo_neto +" Bolivares");
-    scan.close();
+   
     }
    
 }

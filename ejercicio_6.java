@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_6 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         Scanner sacn = new Scanner(System.in);
         // Un maestro desea saber qué porcentaje de hombres y qué porcentaje de mujeres hay en un grupo
         // de estudiantes.
@@ -13,6 +14,6 @@ public class ejercicio_6 {
         System.out.println(mujeres);
         System.out.println("El porcentaje de hombres es "+((hombres*100)/t_estudiantes)+ "%");
         System.out.println("El porcentaje total de mujeres es "+ ((mujeres*100)/t_estudiantes)+ "%");
-        sacn.close();
+       
     }
 }

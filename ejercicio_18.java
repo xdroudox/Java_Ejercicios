@@ -1,6 +1,7 @@
+package Java_Ejercicios;
 import java.util.Scanner;
 public class ejercicio_18 {
-    public static void main(String[] args) {
+    public static void ejecutar(String[] args) {
         // Resuelva el problema que tienen en una gasolinera. Los surtidores de la misma registran lo que
         // surten en galones, pero el precio de la gasolina está fijado en litros. Se requiere que calcule y muestre
         // lo que hay que cobrarle a un cliente, considerando que: (a) cada galón tiene 3.785 litros; (b) el precio
@@ -11,6 +12,6 @@ public class ejercicio_18 {
         double litros = galones * 3.785;
         double precio = litros * 100;
         System.out.println("El precio a pagar es: " + precio + " Bolivares");
-        scan.close();
+       
     }
 }
